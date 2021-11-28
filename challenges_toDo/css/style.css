@@ -1,0 +1,74 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: black;
+  position: absolute;
+  margin: 0;
+  /* left: 50%;
+  top: 50%; */
+  /* transform: translate(-50%, -50%); */
+  /* text-align: center; */
+  /* mix-blend-mode: difference; */
+  font-family: "Times New Roman", Times, serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+input {
+  color: aliceblue;
+  width: 300px;
+  height: 50px;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid gainsboro;
+}
+
+.div_weather {
+  margin: 0;
+  float: right;
+  font-size: 10pt;
+  color: white;
+}
+
+.wrapper {
+  /* left: 50%;
+  top: 50%;
+  text-align: center; */
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  /* transform: translate(-50%, -50%); */
+}
+
+.hidden {
+  display: none;
+}
+
+ul,
+label {
+  text-align: left;
+  list-style: none;
+  padding-left: 0;
+  cursor: pointer;
+}
+
+.span-toggle {
+  text-decoration: line-through;
+  color: gray;
+}
+
+input::placeholder {
+  color: white;
+}
